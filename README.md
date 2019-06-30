@@ -6,4 +6,4 @@ Once you have downloaded the zip file, unzip it to your computer. Then add the b
 To run: 
 
 $mvn clean package
-$java -jar target/gs-rest-service-0.1.0.jar
+\n $java -jar target/gs-rest-service-0.1.0.jar
