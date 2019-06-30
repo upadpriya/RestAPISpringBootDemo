@@ -1,5 +1,5 @@
 <configuration>
-    <include name="acer-pc.config.xml"/>
+    <include name="<hostname>.config.xml"/>
 
     <section name="myproject">
         <entry key="instance" value="Test" />
