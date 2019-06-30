@@ -7,3 +7,7 @@ To run:
 
 $mvn clean package
 \n $java -jar target/gs-rest-service-0.1.0.jar
+
+Reference:
+https://spring.io/guides/gs/rest-service/
+
