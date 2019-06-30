@@ -1,0 +1,23 @@
+<configuration>
+    <section name="myproject">
+        <entry key="instance" value="base" />
+        <entry key="isProduction" value="false" />
+        <entry key="httpHost" value="xyz" />
+    </section>
+
+    <section name="webServices">
+        <entry key="port" value="81" />
+    </section>
+
+    <section name="workPermit">
+        <entry key="notifyInterval" value="80" />
+        <entry key="updateInterval" value="24" />
+        <entry key="isNotifyOn" value="false" />
+
+        <entry key="defaultNotifyAddress" value="qaGuy@xyz.com" />
+
+        <entry key="notifyFrom" value="[myProject]{instance}@xyz.com" />
+
+        <entry key="notifySubject" value="[myProject]{instance} - Work Permit has not been updated in [workPermit]{updateInterval} hours"/>
+    </section>
+</configuration>
