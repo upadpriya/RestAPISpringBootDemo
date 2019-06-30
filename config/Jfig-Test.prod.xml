@@ -1,0 +1,13 @@
+<configuration>
+    <include name="JFig-Test.uat.xml"/>
+
+    <section name="myproject">
+        <entry key="instance" value="Production" />
+        <entry key="isProduction" value="true" />
+    </section>
+
+    <section name="workPermit">
+        <entry key="isNotifyOn" value="false" />
+    </section>
+
+</configuration>

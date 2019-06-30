@@ -1,0 +1,13 @@
+<configuration>
+    <include name="acer-pc.config.xml"/>
+
+    <section name="myproject">
+        <entry key="instance" value="Test" />
+    </section>
+
+    <section name="workPermit">
+        <entry key="notifyInterval" value="15" />
+        <entry key="isNotifyOn" value="true" />
+   </section>
+
+</configuration>
